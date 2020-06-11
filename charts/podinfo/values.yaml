@@ -18,7 +18,7 @@ h2c:
   enabled: false
 
 image:
-  repository: stefanprodan/podinfo
+  repository: drfilipe/podinfo
   tag: 3.1.5
   pullPolicy: IfNotPresent
 
@@ -78,4 +78,3 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
-
